@@ -1,0 +1,72 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="uat3 debug [test...]" type="MavenRunConfiguration" factoryName="Maven" activateToolWindowBeforeRun="false">
+    <MavenSettings>
+      <option name="myGeneralSettings" />
+      <option name="myRunnerSettings">
+        <MavenRunnerSettings>
+          <option name="delegateBuildToMaven" value="false" />
+          <option name="environmentProperties">
+            <map>
+              <entry key="ANDROID_HOME" value="$USER_HOME$/Library/Android/sdk" />
+            </map>
+          </option>
+          <option name="jreName" value="#USE_PROJECT_JDK" />
+          <option name="mavenProperties">
+            <map>
+              <entry key="appInstalled" value="true" />
+              <entry key="appName" value="bigbasket" />
+              <entry key="buildNumber" value="null" />
+              <entry key="dashboard" value="false" />
+              <entry key="description" value="Local Automation - Himanshu" />
+              <entry key="dumpPath" value="$USER_HOME$/Desktop/mitm-proxy-test" />
+              <entry key="emailTo" value="himanshu.nikhare@bigbasket.com" />
+              <entry key="exclude" value="ios" />
+              <entry key="gitBranch" value="snow-test" />
+              <entry key="gridMode" value="false" />
+              <entry key="platformName" value="Android" />
+              <entry key="proxyMode" value="false" />
+              <entry key="restassuredLogsToConsole" value="true" />
+              <entry key="retryMode" value="false" />
+              <entry key="sendEmail" value="false" />
+              <entry key="serverIp" value="10.2.10.101" />
+              <entry key="serverName" value="https://uat3.bigbasket.com" />
+              <entry key="suiteName" value="ongoingT" />
+              <entry key="supportServerName" value="https://uatbbdaily.bigbasket.com" />
+              <entry key="testngXml" value="testng.xml" />
+              <entry key="videoLogs" value="false" />
+            </map>
+          </option>
+          <option name="passParentEnv" value="true" />
+          <option name="runMavenInBackground" value="true" />
+          <option name="skipTests" value="false" />
+          <option name="vmOptions" value="" />
+        </MavenRunnerSettings>
+      </option>
+      <option name="myRunnerParameters">
+        <MavenRunnerParameters>
+          <option name="profiles">
+            <set />
+          </option>
+          <option name="goals">
+            <list>
+              <option value="test" />
+              <option value="-Dmaven.surefire.debug" />
+            </list>
+          </option>
+          <option name="pomFileName" />
+          <option name="profilesMap">
+            <map />
+          </option>
+          <option name="resolveToWorkspace" value="false" />
+          <option name="workingDirPath" value="$PROJECT_DIR$" />
+        </MavenRunnerParameters>
+      </option>
+    </MavenSettings>
+    <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+      <option name="credential" />
+      <option name="region" />
+      <option name="useCurrentConnection" value="false" />
+    </extension>
+    <method v="2" />
+  </configuration>
+</component>
